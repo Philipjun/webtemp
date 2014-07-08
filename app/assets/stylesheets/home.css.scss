@@ -3,8 +3,8 @@
 // You can use Sass (SmidS) here: http://sass-lang.com/
 
 #intro { 
-  background: #c3c2c1 url(bg2.jpg) left no-repeat; 
-  height: 996px;
+  background: url(bg2.jpg) left no-repeat; 
+  height: 600px;
 }
 
 #intro h1 {
@@ -21,51 +21,4 @@
   font-weight: bold;
 }
 
-#mid {
-  background: #0099cc url(images/mid-bg.jpg);
-  height: 996px;
-  background-size: cover; 
-}
-
-#mid h2 {
-  width: 740px; height: 600px;
-  background: #0099cc url(images/mid-title.png); text-indent: -9999px;
-  position: relative; top: 87px; left: 90px;
-}
-
-#mid p {
-  position: relative; top: 110px; left: 100px;
-}
-
-#mid .btn a {
-  display: block; width: 728px; height: 176px;
-  background: url(images/mid-link.png); text-indent: -9999px;
-  position: relative; top: 70px;
-}
-
-#mid ul li {
-    float: left; box-shadow: 0 0 20px rgba(0,0,0,0.5); line-height: 0;
-    position: absolute; list-style: none;
-  }
-    #mid ul li:nth-child(1) {
-      top: 640px; left: 100px;
-      transform: rotate(10deg);
-      -moz-transform: rotate(10deg);
-      -webkit-transform: rotate(10deg);
-      z-index: 1;
-    }
-    #mid ul li:nth-child(2) {
-      top: 600px; left: 420px;
-      transform: rotate(-5deg);
-      -moz-transform: rotate(-5deg);
-      -webkit-transform: rotate(-5deg);
-      z-index: 3;
-    }
-    #mid ul li:nth-child(3) {
-      top: 680px; left: 570px;
-      transform: rotate(-2deg);
-      -moz-transform: rotate(-2deg);
-      -webkit-transform: rotate(-2deg);
-      z-index: 2;
-    }
 
