@@ -2,28 +2,20 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-#bg {
-  position: fixed; 
-  top: -50%; 
-  left: -50%; 
-  width: 200%; 
-  height: 200%;
-}
-#bg img {
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  right: 0; 
-  bottom: 0; 
-  margin: auto; 
-  min-width: 50%;
-  min-height: 50%;
+#intro { 
+  background: #c3c2c1 url(images/intro-bg.jpg) left no-repeat; 
 }
 
-#menu{
-position: absolute;
-top: 0;
-left: 2em;
-z-index: 80;
-line-height: 1em
-}
+  #intro h1 {
+    width: 858px; height: 161px;
+    background: url(images/intro-title.png); text-indent: -9999px;
+    position: relative; top: 145px; left: 0;
+  }
+
+  #intro p {
+    position: relative; top: 200px; left: 350px;
+    width: 508px; margin: 0 0 30px 0;
+  }
+  #intro p:nth-child(2) {
+    font-weight: bold;
+  }
