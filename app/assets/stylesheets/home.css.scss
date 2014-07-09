@@ -7,13 +7,13 @@
 }
 
 #intro h1 {
-  width: 668px; height: 180px;
-  background: url(logo2.png); text-indent: -9999px;
-  position: relative; top: 145px; left: 0;
+  width: 668px; height: 100px;
+  background: url(logo3.png); text-indent: -9999px;
+  position: relative; top: 145px; left: 50px;
 }
 
 #intro p {
-  position: relative; top: 200px; left: 300px;
+  position: relative; top: 150px; left: 80px;
   width: 508px; margin: 0 0 30px 0;
 }
 #intro p:nth-child(2) {
@@ -21,4 +21,20 @@
   color: white;
 }
 
+#mid{
+  background: url(iceland.jpg) left no-repeat;
+}
+
+#mid h1 {
+  width: 668px; height: 100px;
+  background: url(hobbies.png); text-indent: -9999px;
+  position: relative; top: 145px; left: 580px;
+}
+
+#mid p {
+  position: relative; top: 150px; left: 550px;
+  width: 508px; margin: 0 0 30px 0;
+  font-weight: bold;
+  color: white
+}
 
