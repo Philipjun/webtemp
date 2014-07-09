@@ -22,13 +22,13 @@
 }
 
 #mid{
-  background: url(iceland.jpg) left no-repeat;
+  background-image: -webkit-linear-gradient(top, #575C5C 0%, #262626 100%);
 }
 
 #mid h1 {
   width: 668px; height: 100px;
-  background: url(hobbies.png); text-indent: -9999px;
-  position: relative; top: 145px; left: 580px;
+  background: url(portfolio.png); text-indent: -9999px;
+  position: relative; top: 145px; left: 450px;
 }
 
 #mid p {
@@ -38,3 +38,19 @@
   color: white
 }
 
+#end{
+  background-image: -webkit-linear-gradient(top, #575C5C 0%, #262626 100%);
+}
+
+#end h1 {
+  width: 668px; height: 100px;
+  background: url(contact.png); text-indent: -9999px;
+  position: relative; top: 145px; left: 300px;
+}
+
+#end p {
+  position: relative; top: 150px; left: 550px;
+  width: 508px; margin: 0 0 30px 0;
+  font-weight: bold;
+  color: white
+}
