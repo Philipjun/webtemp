@@ -85,5 +85,53 @@
 
 a{
   color: white;
-  font-size: 2em
+  font-size: 64%;
 }
+
+a:hover{
+color: black;
+
+}
+
+#boxes{
+  height: 150px;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  margin: auto;
+  text-align: center;
+}
+
+#boxes .box{
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  margin: 0 10px;
+  overflow: hidden;
+  font-size: 150%;
+  font-weight: 200;
+  text-align: center;
+  line-height: 90px;
+  color: #f0f0f0;
+  cursor: default;
+}
+
+#boxes .box:before{
+  width: 150px;
+  display: block;
+  font-family: 'foundation-icons', sans-serif;
+  font-size: 480%;
+  line-height: 150px;
+  color: white;
+  transition: font-size .5s, line-height .5s;
+  -webkit-transition: font-size .5s, line-height .5s;
+}
+
+#boxes .box:hover:before{
+  font-size: 200%;
+  line-height: 50px;
+}
+
+#boxes .mail:before { content: "\f16d"; }
+#boxes .github:before { content: "\f1c9"; }
+#boxes .linkedin:before { content: "\f1d0"; }
+#boxes .twitter:before { content: "\f1e4"; }
