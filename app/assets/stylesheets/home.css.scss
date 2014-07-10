@@ -110,3 +110,9 @@ color: black;
 #boxes .github:before { content: "\f1c9"; }
 #boxes .linkedin:before { content: "\f1d0"; }
 #boxes .twitter:before { content: "\f1e4"; }
+
+.panel{
+  position: absolute;
+  top: 18em;
+  width: 100%
+}
