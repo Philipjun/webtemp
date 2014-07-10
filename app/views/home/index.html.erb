@@ -32,7 +32,7 @@
     <h1>Portfolio</h1>
     
     <div class="panel">
-        <ul class="example-orbit" data-orbit>
+ <!--        <ul class="example-orbit" data-orbit>
     <li>
       <img src="/assets/cf1.png" alt="slide 1" />
       <div class="orbit-caption">
@@ -51,7 +51,13 @@
         New project creation page.
       </div>
     </li>
-  </ul>
+  </ul> -->
+
+  <ul class="clearing-thumbs" data-clearing>
+  <li><a href="path/to/your/img"><img src="path/to/your/img-th"></a></li>
+  <li><a href="path/to/your/img"><img src="path/to/your/img-th"></a></li>
+  <li><a href="path/to/your/img"><img src="path/to/your/img-th"></a></li>
+</ul>
 
       
     </div>
@@ -84,6 +90,13 @@
   
 
 </div>
+
+<script>
+  $('a').click(function() {
+    alert('tes');
+    //$("html, body").animate({ scrollTop: $(document).height() }, "fast");
+  })
+</script>
   
 </body>
 </html>
