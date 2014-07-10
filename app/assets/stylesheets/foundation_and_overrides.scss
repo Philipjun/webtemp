@@ -725,7 +725,7 @@
 
 // We use these to control the caption styles
 // $orbit-container-bg: none;
-// $orbit-caption-bg: rgba(51,51,51, 0.8);
+$orbit-caption-bg: #8c8c8d;
 // $orbit-caption-font-color: #fff;
 // $orbit-caption-font-size: rem-calc(14);
 // $orbit-caption-position: "bottom"; // Supported values: "bottom", "under"
@@ -735,7 +735,7 @@
 // We use these to control the left/right nav styles
 // $orbit-nav-bg: transparent;
 // $orbit-nav-bg-hover: rgba(0,0,0,0.3);
-// $orbit-nav-arrow-color: #fff;
+$orbit-nav-arrow-color: grey;
 // $orbit-nav-arrow-color-hover: #fff;
 
 // We use these to control the timer styles
