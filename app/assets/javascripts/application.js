@@ -18,5 +18,5 @@
 
 $(function(){ $(document).foundation(); });
 
-$(".main").onepage_scroll();
 
+$(".main").onepage_scroll();

@@ -22,7 +22,8 @@
 }
 
 #mid{
-  background-image: -webkit-linear-gradient(top, #575C5C 0%, #262626 100%);
+  // background-image: -webkit-linear-gradient(top, #575C5C 0%, #262626 100%);
+  background-color: #F5F5F5
 }
 
 #mid h1 {
@@ -40,7 +41,7 @@
 
 #end{
   // background: url(end.jpg) left no-repeat; 
-  background-image: -webkit-linear-gradient(top, #262626 0%, #717368 70%);
+  background-image: -webkit-linear-gradient(top, #F5F5F5 0%, #717368 70%);
 }
 
 #end h1 {
