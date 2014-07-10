@@ -23,13 +23,13 @@
 
 #mid{
   // background-image: -webkit-linear-gradient(top, #575C5C 0%, #262626 100%);
-  background-color: #F5F5F5
+  background-color: white
 }
 
 #mid h1 {
   width: 668px; height: 100px;
   background: url(portfolio.png); text-indent: -9999px;
-  position: relative; top: 45px; left: 450px;
+  position: relative; top: 45px; left: 50px;
 }
 
 #mid p {
@@ -47,7 +47,7 @@
 #end h1 {
   width: 668px; height: 100px;
   background: url(contact.png); text-indent: -9999px;
-  position: relative; top: 145px; left: 300px;
+  position: relative; top: 145px; left: 50px;
 }
 
 #end p {
@@ -114,7 +114,13 @@ color: black;
 .panel{
   position: absolute;
   top: 10em;
-  width: 600px;
-  height: 700px;
+  width: 100%;
+  height: 500px;
   text-align: center;
+}
+
+.panelp:before{
+  transition: font-size .5s, line-height .5s;
+  -webkit-transition: font-size .5s, line-height .5s;
+
 }
