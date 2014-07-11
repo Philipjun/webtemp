@@ -8,7 +8,7 @@
 
 #intro h1 {
   width: 668px; height: 100px;
-  background: url(logo3.png); text-indent: -9999px;
+  background: url(intro.png); text-indent: -9999px;
   position: relative; top: 145px; left: 50px;
 }
 
@@ -27,9 +27,10 @@
 }
 
 #mid h1 {
-  width: 668px; height: 100px;
-  background: url(portfolio.png); text-indent: -9999px;
+  width: 389px; height: 85px;
+  background: url(mid.png); text-indent: -9999px;
   position: relative; top: 45px; left: 50px;
+  margin: 0 auto
 }
 
 #mid p {
@@ -45,9 +46,10 @@
 }
 
 #end h1 {
-  width: 668px; height: 100px;
-  background: url(contact.png); text-indent: -9999px;
+  width: 565px; height: 85px;
+  background: url(end.png); text-indent: -9999px;
   position: relative; top: 145px; left: 50px;
+  margin: 0 auto;
 }
 
 #end p {
@@ -71,7 +73,8 @@ color: black;
 #boxes{
   height: 150px;
   position: absolute;
-  top: 0; right: 0; bottom: 0; left: 0;
+  top: 40%;
+  width: 100%;
   margin: auto;
   text-align: center;
 }
