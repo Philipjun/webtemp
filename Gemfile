@@ -36,7 +36,7 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-group: :production do
+group :production do
   gem 'rails_12factor'
 end
 
