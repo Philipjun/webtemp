@@ -52,7 +52,7 @@
 
 #end h1 {
   width: 565px; height: 85px;
-  background: url <%=asset_path('end.png') %>; text-indent: -9999px;
+  background: url ('<%=asset_path('end.png') %> '); text-indent: -9999px;
   position: relative; top: 145px; 
   margin: 0 auto;
 }
