@@ -1,0 +1,93 @@
+// Place all the styles related to the portfolio controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.lightbox{
+  width: 600px;
+  height: 620px;
+  text-align: center;
+  margin: 0 auto
+}
+
+
+
+.ppanel{
+  width: 100%;
+  height: 60%;
+  top: 5em;
+  position: relative;
+  
+}
+
+
+.pdesc h1{
+  font-size: 4em;
+  text-align: center;
+  position: relative;
+  line-height: 0.1em;
+  font-style: bold;
+
+}
+
+.pdesc h1 span { 
+    background:#fff; 
+    padding:0 10px; 
+}
+
+.pdesc p{
+  font-size: 1.5em;
+  padding-left: 1em;
+  position: relative;
+  top: 2em;
+  padding-bottom: 2em;
+  text-align: center
+}
+
+.pfeat h1{
+  font-size: 2em;
+  position: relative;
+  line-height: 0.1em;
+  background-color: #FFF;
+  text-align: center;
+  left: -2em
+}
+
+.pfeat h1 span { 
+    background:#fff; 
+    padding:0 10px; 
+    position: absolute;
+
+}
+
+.pfeat p{
+  font-size: 1.5em;
+  padding-left: 1em;
+  position: relative;
+  top: 2em;
+  text-align: center
+}
+
+.borderc{
+  border: 2px solid #47db6f;
+}
+
+.border2c{
+  border: 1px solid #47db6f;
+}
+
+.navbar{
+  text-align: right
+}
+
+.navbar a{
+  color: black;
+  size: 2em
+}
+
+.borders{
+  border: 2px solid #0c88d7;
+}
+
+.border2s{
+  border: 1px solid #0c88d7;
+}
