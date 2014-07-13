@@ -30,10 +30,19 @@
 #mid h1 {
   width: 388px; height: 84px;
   background: url(mid.png); text-indent: -9999px;
-  position: relative; top: 145px; 
-  margin: 0 auto;
-  left: 12em;
-  position: absolute;
+  display: inline-block;
+  position: relative;
+  top: 2em;
+  left: 9em;
+
+}
+
+.porth{
+  position: relative; top: 2em; 
+  height: 100px;
+  width: 10%;
+  display: inline-block;
+  
 }
 
 #mid p {
