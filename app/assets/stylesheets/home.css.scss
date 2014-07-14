@@ -3,7 +3,7 @@
 // You can use Sass (SmidS) here: http://sass-lang.com/
 
 #intro { 
-  background: asset-url('slide1.jpg') no-repeat; 
+  background: asset-url('intro.jpg') no-repeat; 
 }
 
 #intro h1 {
@@ -19,12 +19,12 @@
 }
 #intro p:nth-child(2) {
   color: white;
-  font-size: 180%;
+  font-size: 1.5em;
 }
 
 #mid{
   // background-color: white
-  background: asset-url('machd.png') no-repeat; 
+  // background: asset-url('midbg.png') no-repeat; 
 }
 
 #mid h1 {
