@@ -53,8 +53,7 @@
 
 
 #end{
-  
-  background-image: -webkit-linear-gradient(top, #FFF 0%, #0099cc 100%);
+  background: white
 }
 
 #end h1 {
@@ -74,12 +73,12 @@
 
 
 a{
-  color: white;
+  color: #1567b7;
   font-size: 64%;
 }
 
 a:hover{
-color: black;
+color: grey;
 
 }
 
@@ -112,7 +111,7 @@ color: black;
   font-family: 'foundation-icons', sans-serif;
   font-size: 480%;
   line-height: 150px;
-  color: white;
+  color: #1567b7;
   transition: font-size .5s, line-height .5s;
   -webkit-transition: font-size .5s, line-height .5s;
 }
