@@ -8,7 +8,7 @@
 
 #intro h1 {
   width: 668px; height: 100px;
-  background: asset_url(intro.png); text-indent: -9999px;
+  background: asset-url('intro.png'); text-indent: -9999px;
   position: relative; top: 145px; left: 50px;
 }
 
@@ -29,7 +29,7 @@
 
 #mid h1 {
   width: 268px; height: 60px;
-  background: asset-url(portfolio.png); text-indent: -9999px;
+  background: asset-url('portfolio.png'); text-indent: -9999px;
   display: inline-block;
   position: absolute;
   top: 0.5em;
