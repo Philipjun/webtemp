@@ -28,12 +28,12 @@
 }
 
 #mid h1 {
-  width: 388px; height: 84px;
-  background: url(mid.png); text-indent: -9999px;
+  width: 268px; height: 60px;
+  background: url(portfolio.png); text-indent: -9999px;
   display: inline-block;
-  position: relative;
-  top: 2em;
-  left: 9em;
+  position: absolute;
+  top: 0.5em;
+  left: 11em;
 
 }
 
@@ -51,17 +51,15 @@
 }
 
 
-
-
 #end{
   
-  background-image: -webkit-linear-gradient(top, #FFF 0%, #717368 70%);
+  background-image: -webkit-linear-gradient(top, #FFF 0%, #0099cc 100%);
 }
 
 #end h1 {
-  width: 565px; height: 85px;
-  background: image-url ('end.png'); text-indent: -9999px;
-  position: relative; top: 145px; 
+  width: 374px; height: 95px;
+  background: url('contact.png'); text-indent: -9999px;
+  position: relative; top: 5em; 
   margin: 0 auto;
 }
 
