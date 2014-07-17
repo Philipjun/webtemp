@@ -4,12 +4,24 @@
 
 #intro { 
   background: asset-url('intro.jpg') no-repeat; 
+
 }
 
 #intro h1 {
-  width: 668px; height: 100px;
-  background: asset-url('intro.png'); text-indent: -9999px;
-  position: relative; top: 3em; left: 50px;
+  // width: 668px; height: 100px;
+  // background: asset-url('intro.png'); text-indent: -9999px;
+  position: relative; 
+  top: 1.5em; 
+  left: 1em;
+  font-size: 5em;
+  color: white;
+  font-weight: bold;
+  // -webkit-animation: come-in 1.5s ease forwards;
+}
+
+@-webkit-keyframes #intro h1 { /* Safari and Chrome */ 
+    from {top:0px;}
+    to {top:200px;}
 }
 
 #intro p {
@@ -117,6 +129,7 @@ color: #bead95;
   // background-color: #ad8c5f;
   box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
   border-radius: 5em;
+
 }
 
 #boxes .box:before{
