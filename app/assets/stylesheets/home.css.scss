@@ -20,10 +20,6 @@
   // -webkit-animation: come-in 1.5s ease forwards;
 }
 
-@-webkit-keyframes #intro h1 { /* Safari and Chrome */ 
-    from {top:0px;}
-    to {top:200px;}
-}
 
 #intro p {
   position: relative; 
@@ -109,6 +105,7 @@ a{
 
 a:hover{
 color: #bead95;
+font-style: bold
 
 }
 
@@ -139,6 +136,7 @@ color: #bead95;
   min-width: 100px;
 
 }
+
 
 #boxes .box:before{
   display: block;
