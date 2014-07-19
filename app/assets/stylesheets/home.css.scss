@@ -29,7 +29,7 @@
   top: 8em; 
   left: 6%;
   width: 50%; 
-  max-width: 450px;
+  max-width: 550px;
   color: white;
   font-size: 1.5em;
 
@@ -37,13 +37,12 @@
 
 #photo{
   margin-left: 35%;
-  position: relative;
-  bottom: 10%;
+  // position: relative;
+  // bottom: 6.6%;
+  z-index: -1;
 }
 
-#intro :after{
-  clear: both
-}
+
 
 #mid{
   // background: asset-url('glass.jpg') no-repeat; 
