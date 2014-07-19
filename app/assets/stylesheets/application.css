@@ -14,3 +14,7 @@
  *= require_tree .
  */
 
+[data-magellan-expedition] {
+  position: absolute;
+}
+
