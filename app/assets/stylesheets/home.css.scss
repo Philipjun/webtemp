@@ -26,7 +26,7 @@
 
 #intro p {
   position: relative; 
-  top: 150px; 
+  top: 8em; 
   left: 6%;
   width: 50%; 
   max-width: 450px;
@@ -35,6 +35,15 @@
 
 }
 
+#photo{
+  margin-left: 35%;
+  position: relative;
+  bottom: 10%;
+}
+
+#intro :after{
+  clear: both
+}
 
 #mid{
   // background: asset-url('glass.jpg') no-repeat; 
