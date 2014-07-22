@@ -407,7 +407,7 @@ ul.img-list li:hover span.text-content {
     #boxes{
     height: 15%;
     position: relative;
-    top: 27%;
+    top: 10em;
     width: 100%;
     margin: auto;
     text-align: center;
@@ -417,30 +417,29 @@ ul.img-list li:hover span.text-content {
     width: 20%;
     height: 100%;
     display: inline-block;
-    // margin: 0 10px;
     overflow: hidden;
     font-size: 100%;
     font-weight: 200;
     text-align: center;
-    line-height: 250%;
+    line-height: 100%;
     cursor: default;
 
 
   }
 
-
   #boxes .box:before{
-    display: block;
-    font-family: 'foundation-icons', sans-serif;
-    font-size: 200%;
-    line-height: 200%;
-    color: white;
-    transition: font-size .5s, line-height .5s;
-    -webkit-transition: font-size .5s, line-height .5s;
-  }
+  display: block;
+  font-family: 'foundation-icons', sans-serif;
+  font-size: 200%;
+  line-height: 100%;
+  color: white;
+
+  
+}
+
 
   #boxes .box:hover:before{
-    font-size: 100%;
+    font-size: 200%;
     line-height: 50px;
   }
 
