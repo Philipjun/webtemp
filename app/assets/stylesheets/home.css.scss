@@ -302,9 +302,9 @@ ul.img-list li:hover span.text-content {
  */
 @media only screen and (max-width: 480px) {
    #intro h1 {
-  font-size: 1em;
+  font-size: 2em;
   position: relative; 
-  top: 1.5em; 
+  top: 6em; 
   left: 6%;
   color: white;
   font-weight: bold;
@@ -312,7 +312,7 @@ ul.img-list li:hover span.text-content {
      
 #intro p {
   position: relative; 
-  top: 2em; 
+  top: 12em; 
   left: 6%;
   width: 50%; 
   color: white;
@@ -322,8 +322,8 @@ ul.img-list li:hover span.text-content {
 }
 
 #photo{
-  margin-left: 30%;
-  top: -3em;
+  margin-left: 40%;
+  top: 8em;
   position: relative;
   z-index: 1;
   height: 50%;
