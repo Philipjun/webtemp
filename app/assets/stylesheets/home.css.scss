@@ -18,7 +18,6 @@
   font-size: 7em;
   color: white;
   font-weight: bold;
-  font-family: 'Great Vibes', cursive;
 
   // -webkit-animation: come-in 1.5s ease forwards;
 }
@@ -63,7 +62,7 @@
   margin-bottom: 1em;
   font-size: 6em;
   text-align: center;
-  font-family: 'Great Vibes', cursive;
+  
 
 }
 
@@ -102,7 +101,7 @@
   text-align: center;
   color: white;
   font-size: 6em;
-  font-family: 'Great Vibes', cursive;
+  
 }
 
 #end p {
@@ -297,5 +296,37 @@ ul.img-list li:hover span.text-content {
 
 }
 
+/* 
+-can be for 7 inch tablets
+-This CSS will apply for devices with the minimum width of 480 pixels
+ */
+@media only screen and (max-width: 480px) {
+   #intro h1 {
+  font-size: 1em;
+  position: relative; 
+  top: 1.5em; 
+  left: 6%;
+  color: white;
+  font-weight: bold;
+   }
+     
+#intro p {
+  position: relative; 
+  top: 2em; 
+  left: 6%;
+  width: 50%; 
+  color: white;
+  font-size: 1em;
+
+}
+
+#photo{
+  margin-left: 30%;
+  position: relative;
+  height: 50%;
+  width: 50%;
+  z-index: 1;
+}
+}
 
 
