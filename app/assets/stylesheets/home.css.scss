@@ -382,7 +382,7 @@ ul.img-list li:hover span.text-content {
     }
 
     #crowdfunder{
-      
+      padding-right: 0px;
     }
 
     #end h1 {
@@ -398,10 +398,16 @@ ul.img-list li:hover span.text-content {
     }
 
 
+    .pshow{
+      padding-left: 0px;
+      padding-right: 0px;
+      text-align: none;
+    }
+
     #boxes{
     height: 15%;
     position: absolute;
-    top: 20%;
+    top: 27%;
     width: 100%;
     margin: auto;
     text-align: center;
@@ -416,7 +422,7 @@ ul.img-list li:hover span.text-content {
     font-size: 100%;
     font-weight: 200;
     text-align: center;
-    line-height: 150%;
+    line-height: 250%;
     cursor: default;
     // background-color: #ad8c5f;
     // box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
