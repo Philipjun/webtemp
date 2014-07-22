@@ -297,37 +297,87 @@ ul.img-list li:hover span.text-content {
 }
 
 /* 
--can be for 7 inch tablets
--This CSS will apply for devices with the minimum width of 480 pixels
+
+-This CSS will apply for devices with the max width of 480 pixels
  */
 @media only screen and (max-width: 480px) {
-   #intro h1 {
-  font-size: 2em;
-  position: relative; 
-  top: 2em; 
-  left: 6%;
-  color: white;
-  font-weight: bold;
+  #intro h1 {
+    font-size: 2em;
+    position: relative; 
+    top: 2em; 
+    left: 6%;
+    color: white;
+    font-weight: bold;
    }
      
-#intro p {
-  position: relative; 
-  top: 6em; 
-  left: 6%;
-  color: white;
-  font-size: 1em;
-  font-weight: normal;
+  #intro p {
+    position: relative; 
+    top: 6em; 
+    left: 6%;
+    color: white;
+    font-size: 1em;
+    font-weight: normal;
 
+  }
+
+  #photo{
+    margin-left: 40%;
+    top: 3em;
+    position: relative;
+    z-index: 1;
+
+    
+  }
+
+  #mid h1 {
+
+    position: relative;
+    top: 0.2em;
+    color: white;
+    margin: 0 auto;
+    font-size: 2em;
+    text-align: center;
+    
+  }
+
+
+  .pshow{
+    text-align: center
+  }
+
+  #mid p {
+    position: absolute; top: 150px; left: 550px;
+    background-color: white
+  }
+
+  .img-list img{
+    height: 50%;
+    width: 50%;
+  }
+
+
+  span.text-content {
+    background: #1567b7;
+    color: white;
+    cursor: pointer;
+    display: table;
+    height: 175px;
+    left: 25%;
+    position: absolute;
+    top: 0;
+    width: 175px;
+    opacity: 0;
+    font-size: 100%;
+  }
+
+  ul.img-list li {
+    display: inline-block;
+    position: relative;
+    width: 345px;
+    }
+
+    #seatyourself{
+      top: -10em;
+      position: relative;
+    }
 }
-
-#photo{
-  margin-left: 40%;
-  top: 3em;
-  position: relative;
-  z-index: 1;
-
-  
-}
-}
-
-
