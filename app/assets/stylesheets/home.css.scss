@@ -421,7 +421,7 @@ ul.img-list li:hover span.text-content {
     font-size: 100%;
     font-weight: 200;
     text-align: center;
-    line-height: 100%;
+    line-height: 10px;
     cursor: default;
 
 
@@ -439,7 +439,7 @@ ul.img-list li:hover span.text-content {
 
 
   #boxes .box:hover:before{
-    font-size: 200%;
+    font-size: 100%;
     line-height: 50px;
   }
 
@@ -447,7 +447,6 @@ ul.img-list li:hover span.text-content {
   #boxes .github:before { content: "\f1c9"; }
   #boxes .linkedin:before { content: "\f1d0"; }
   #boxes .twitter:before { content: "\f1e4"; }
-
 
 
 
