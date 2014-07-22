@@ -317,15 +317,18 @@ ul.img-list li:hover span.text-content {
   width: 50%; 
   color: white;
   font-size: 1em;
+  font-weight: normal;
 
 }
 
 #photo{
   margin-left: 30%;
+  top: -3em;
   position: relative;
+  z-index: 1;
   height: 50%;
   width: 50%;
-  z-index: 1;
+  
 }
 }
 
