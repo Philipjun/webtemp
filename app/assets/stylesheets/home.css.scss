@@ -338,7 +338,6 @@ ul.img-list li:hover span.text-content {
     
   }
 
-
   .pshow{
     width: 100%;
     margin: 0 auto;
@@ -397,7 +396,6 @@ ul.img-list li:hover span.text-content {
   
     }
 
-
     .pshow{
       padding-left: 0px;
       padding-right: 0px;
@@ -411,44 +409,39 @@ ul.img-list li:hover span.text-content {
     width: 100%;
     margin: auto;
     text-align: center;
+    }
+
+    #boxes .box{
+      width: 20%;
+      height: 100%;
+      display: inline-block;
+      overflow: hidden;
+      font-size: 100%;
+      font-weight: 200;
+      text-align: center;
+      line-height: 10px;
+      cursor: default;
+
+    }
+
+    #boxes .box:before{
+    display: block;
+    font-family: 'foundation-icons', sans-serif;
+    font-size: 200%;
+    line-height: 100%;
+    color: white;
+    
   }
 
-  #boxes .box{
-    width: 20%;
-    height: 100%;
-    display: inline-block;
-    overflow: hidden;
-    font-size: 100%;
-    font-weight: 200;
-    text-align: center;
-    line-height: 10px;
-    cursor: default;
+    #boxes .box:hover:before{
+      font-size: 100%;
+      line-height: 50px;
+    }
 
+    #boxes .mail:before { content: "\f16d"; }
+    #boxes .github:before { content: "\f1c9"; }
+    #boxes .linkedin:before { content: "\f1d0"; }
+    #boxes .twitter:before { content: "\f1e4"; }
 
-  }
-
-  #boxes .box:before{
-  display: block;
-  font-family: 'foundation-icons', sans-serif;
-  font-size: 200%;
-  line-height: 100%;
-  color: white;
-
-  
 }
 
-
-  #boxes .box:hover:before{
-    font-size: 100%;
-    line-height: 50px;
-  }
-
-  #boxes .mail:before { content: "\f16d"; }
-  #boxes .github:before { content: "\f1c9"; }
-  #boxes .linkedin:before { content: "\f1d0"; }
-  #boxes .twitter:before { content: "\f1e4"; }
-
-
-
-
-}
