@@ -4,14 +4,16 @@
   <tr>
     <th>Title</th>
     <th>Text</th>
+    <th colspan="2"></th>
   </tr>
 
   <%= @posts.each do |p| %>
     <tr>
       <td><%= p.title %></td>
       <td><%= p.text %></td>
+      <td><%= link_to "Show", post_path(post) %></td>
+      <td><%= link_to "Edit Post", edit_post_path(post) %></td>
     </tr>
   <% end %>
 </table>
 
-<%= link_to "New Post", new_post_path %>
