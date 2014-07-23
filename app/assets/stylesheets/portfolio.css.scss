@@ -13,8 +13,9 @@
 
 .ppanel{
   width: 100%;
-  height: 60%;
+  height: 100%;
   position: relative;
+  overflow: scroll;
   
 }
 
@@ -23,7 +24,7 @@
   font-size: 5em;
   text-align: center;
   position: relative;
-  line-height: 0.1em;
+  line-height: 1em;
   font-style: bold;
 
 }
@@ -40,7 +41,7 @@
   // top: 1em;
   // padding-bottom: 1em;
   text-align: center;
-  padding-top: 5%;
+  padding-top: 2%;
   
 }
 
@@ -76,7 +77,7 @@
 }
 
 .borderc{
-  border: 2px solid #47db6f;
+  border: 1px solid #47db6f;
 }
 
 .border2c{
@@ -111,7 +112,7 @@
       font-size: 2em;
       text-align: center;
       position: relative;
-      line-height: 0.1em;
+      line-height: 1em;
       font-style: bold;
 
     }
@@ -124,7 +125,7 @@
     .pdesc p{
       font-size: 1em;
       text-align: center;
-      padding-top: 5%;
+      padding-top: 1%;
       
     }
 
