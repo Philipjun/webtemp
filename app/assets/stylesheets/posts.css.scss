@@ -47,6 +47,26 @@
 
 .btable{
   margin-right: 40%;
-  box-shadow: inset 0 0 0 1000px rgba(84, 84, 85, 0.64);
   position: relative
+}
+
+.btable h2 {
+  font-size: 2em;
+  padding-top: 2%;
+  text-align: center;
+}
+
+// .btable h2 span {
+//     padding:0 10px; 
+//     position: absolute;
+
+// }
+
+.borderb{
+  border: 1px solid white;
+}
+
+.btable p{
+ padding-left: 10%;
+ color: white;
 }
