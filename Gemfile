@@ -22,6 +22,8 @@ gem 'jquery-rails'
 
 gem 'foundation-rails'
 
+gem 'carrierwave'
+
 gem 'activeadmin', github: 'gregbell/active_admin'
 
 gem 'devise'
