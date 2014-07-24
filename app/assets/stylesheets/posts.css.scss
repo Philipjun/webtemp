@@ -2,13 +2,51 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.blogtable {
-  background: #1567b7;
-  color: white;
+// .blogtable {
+//   background: #1567b7;
+//   color: white;
+//   height: 100%;
+//   width: 100%;
+// }
+
+// .blogtable a{
+//   color: black
+// }
+
+.bmain{
+  background-color: #1567b7;
   height: 100%;
   width: 100%;
+  background: asset-url('end.jpg'); 
+  box-shadow: inset 0 0 0 1000px rgba(21, 103, 183, 0.6);
 }
 
-.blogtable a{
-  color: black
+.bmain h1{
+  position: relative; 
+  top: 0em; 
+  font-size: 5em;
+  color: white;
+  font-weight: bold;
+  text-align: center
+}
+
+.bmain h2{
+  font-size: 2em;
+  color: white;
+  font-style: italic
+}
+
+.bmain h3{
+  position: relative; 
+  font-size: 1em;
+  color: white;
+  text-align: center;
+  font-style: oblique;
+  top: -1em;
+}
+
+.btable{
+  margin-right: 40%;
+  box-shadow: inset 0 0 0 1000px rgba(84, 84, 85, 0.64);
+  position: relative
 }
