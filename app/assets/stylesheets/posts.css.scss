@@ -2,11 +2,13 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-body {
+.blogtable {
   background: #1567b7;
   color: white;
+  height: 100%;
+  width: 100%;
 }
 
-a {
+.blogtable a{
   color: black
 }
