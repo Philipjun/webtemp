@@ -1,6 +1,13 @@
 <div class="blogtable">
 
-  <h1>Listing posts</h1>
+Hello
+
+<% @posts.each do |post| %>
+<td><%= post.title %></td>
+<td><%= post.text %></td>
+
+<% end %>
+ <!--  <h1>Listing posts</h1>
   <%= link_to 'New Post', new_post_path %>
   <table class="blog">
     <tr>
@@ -19,6 +26,6 @@
 
       </tr>
     <% end %>
-  </table>
+  </table> -->
 
 </div>
