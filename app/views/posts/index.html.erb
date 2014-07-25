@@ -14,6 +14,11 @@
     <div class="borderb"></div>
 
     <p><%= post.text %></p>
+
+    <p>
+      <center><%= image_tag post.image_url(:thumb) %></center>
+    </p>
+
   </div>
 
 <% end %>
