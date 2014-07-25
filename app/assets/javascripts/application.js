@@ -13,9 +13,13 @@
 //= require jquery
 //= require jquery_ujs
 //= require foundation
+//= require scrollReveal
 //= require_directory .
 
 $(function(){ $(document).foundation(); });
 
+$(function(){
+  window.scrollreveal = new scrollReveal ();
 
+});
 
