@@ -17,8 +17,5 @@
 
 $(function(){ $(document).foundation(); });
 
-$(document).ready(function(){
-$(".main").onepage_scroll();
 
-});
 
