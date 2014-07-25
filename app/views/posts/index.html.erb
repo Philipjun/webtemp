@@ -7,21 +7,24 @@
 
 <% @posts.each do |post| %>
 
+<%= post.created_at.strftime("%d %b 20%y") %>
+
   <div class="btable">
     <h2>
-        <%= post.title %>
+        <span><%= post.title %></span>
     </h2>
-    <div class="borderb"></div>
+    
 
     <p><%= post.text %></p>
+  </div>
 
     <p>
       <center><%= image_tag post.image_url(:thumb) %></center>
     </p>
 
-  </div>
 
 <% end %>
+
 
   
     
