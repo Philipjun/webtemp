@@ -2,8 +2,7 @@ class Post < ActiveRecord::Base
 
   mount_uploader :image, ImageUploader    
   
-  validates :text, presence: true,
-                      length: { minimum: 5}
+  validates :text, presence: true
 
 
 private

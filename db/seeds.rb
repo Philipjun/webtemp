@@ -54,6 +54,43 @@ Today’s lecture was to build on using Object oriented programming and learning
 
 Our exercise today was to build our own Customer Relationship Management (CRM) program and being able to add, remove, list, and update customer contacts. Fun project! I am currently still fine tuning the code as I write this post but will be updating the code later for everyone to see!", created_at: "2014-03-30")
 
-Post.create(id: 6, title: "Day 7", text: "Today was a fun today to learn how to make our own web servers. Learned about the basics of creating a HTML response.
+Post.create(id: 6, title: "Day 6", text: "Today was a fun today to learn how to make our own web servers. Learned about the basics of creating a HTML response.
 
-The weather was amazing today and signs of Winter being over are starting to show. I went to grab a quick coffee break with an IT recruiter to discuss a potential opportunity. Funny enough, actually met a recent Ivey Mba grad that was a table beside us and overheard us talking, small world!", created_at: "2014-03-30")
+The weather was amazing today and signs of Winter being over are starting to show. I went to grab a quick coffee break with an IT recruiter to discuss a potential opportunity. Funny enough, actually met a recent Ivey Mba grad that was a table beside us and overheard us talking, small world!", created_at: "2014-03-31")
+
+Post.create(id: 7, title: "HackerNest Toronto March Tech Social", text: "Wow this event was amazing! Great to see so many like-minded individuals in tech, especially meeting the founders of some really exciting new ventures, I can’t wait to attend the next event in April – It will be hosted at Bitmaker Labs!", created_at: "2014-04-01")
+
+
+Post.create(id: 8, title: "Waffle morning!", text: "I thought I would add a morning post since it seems like my blog is getting more attention, woo!
+
+Waffles in the morning is a tradition that occurs every Wednesday at Bitmaker Labs.
+
+Today Lidia and Will made us some great waffles with bananas, smarties, hersheys, and CHEESE CAKE.", created_at: "2014-04-02")
+
+Post.create(id: 9, title: "End of Bitmaker Labs Week 2!", text: "TGIF – survived the second week at Bitmaker Labs! This week was really fun working on making website servers, creating HTML pages and making CSS layouts. In addition to building forms – which I always wanted to make, using databases, and linking everything today using Sinatra.
+
+I’m also really happy to get the iMac display hooked up to my laptop :) Props to Will for finding me a thunderbolt-thunderbolt cable quickly.", created_at: "2014-04-04")
+
+Post.create(id: 10, title: "Making the Leap from Employee to Entrepreneur event", text: "I went to this event called “Making the Leap from Employee to Entrepreneur” tonight and Farhan Thawar
+VP Engineering, at Pivotal Labs was the key speaker – I was actually there 10 minutes ago and am typing this as I’m on the GO ride home. It was a great event to listen to his speech, the most memorable aspect of his speech was “Just F*king Do it.” It was hosted at the offices of Fasken Martineau, a law firm that provides very affordable legal advice for new and upcoming startups btw!", created_at: "2014-04-07")
+
+Post.create(id: 11, title: "Building a Rails application", text: "This week was really busy and I got backlogged on blogging! This week was focused on building a Rails application that would allow you to add pictures, edit pictures, delete pictures and show all pictures – all using Rails. This was definitely the most interesting week so far, since my main purpose of enrolling in Bitmaker Labs was to build some cool ruby on rail applications!", created_at: "2014-04-12")
+
+Post.create(id: 12, title: "Week 5 at Bitmaker Labs (Restaurant app & Waffles)", text: "I’ve been so busy with assignments and events that I haven’t updated my blog in awhile. During my long weekend, I have been working on an web app similar to OpenTable, Seamless, Just-Eat etc. but instead of ordering takeout, the web app will allow you to view, create, and edit restaurants, reservations, and user accounts. I also used Bootstrap to add some quick css styling to it. Here’s a picture of what my web app looks like so far, will be editing it later this week to add more touches.", created_at: "2014-04-23")
+
+Post.create(id: 13, title: "Week 6 + HackerNest", text: "Can’t believe it’s already week 6! This week is focused on building some fun stuff using Javascript and jQuery, I am currently building my own Tic Tac Toe game at the moment that I will share once it’s completed. Today was also Will’s birthday so there were lots of cupcakes, yum!
+  Last night I went to the HackerNest meet hosted here at Bitmaker Labs and met some great people, both in tech and those who want to get into tech! I would definitely recommend coming to HackerNest if you are interested in meeting and building great networks!", created_at: "2014-04-29")
+
+Post.create(id: 14, title: "Bitmaker Labs Week 7-Crowdfunder: Kickstarter clone app + Uberflip office tour", text: "This week is focused on our final class web app called Crowdfunder, which is essentially a clone of Kickstarter. This is one of our biggest projects yet due to the scale and short-time frame of only one week! Determining the user-stories that would guide our app was the first approach in tackling the project.We also went on an office tour of Uberflip today and got to see the office environment and shadow the programmers!", created_at: "2014-05-07")
+
+Post.create(id: 15, title: "Week 8 Bitmaker Final Projects, Think Thursday", text: "As the final course comes to an end, there are no more ‘formal’ assignments for Weeks 8 and 9, as the focus is dedicated towards final projects that students select. The lectures in the morning still continue and this week is focused on learning useful features to apply to our projects, including implementing Google Maps API, Geolocation, Agile Software Development, Responsive Design, and deploying our apps with Heroku.
+
+As part of the Think Thursday speaker events, Chris Carder came to discuss his past experiences. Chris is the Co-Founder of Kinetic Cafe and past Co-Founder of ThinData — which he sold to TC Media in 2008.", created_at: "2014-05-16")
+
+Post.create(id: 16, title: "Last Day at Bitmaker Labs-Demo Day", text: "Wow it’s crazy how fast the 9 weeks went by! We had an internal Bitmaker Labs Demo Day on Friday to showcase all the final projects that the students worked on during the last 2 weeks of the course. It was amazing to see all the unique and creative web apps that my fellow classmates have built! We have definitely come a long way since the first week of class, where we were learning about the basics.
+  For my final project, as a team of two we built a web app that would show and compare wireless plans submitted by other users! We implemented some really cool features in the app including Google Maps API to show the cities that users were searching for the most (in the past hour), displaying real-time plan searches by other users, as well implementing draggable and droppable wireless plans on the user profile page.", created_at: "2014-05-24")
+
+
+
+
+

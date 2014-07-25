@@ -14,53 +14,32 @@
   <h3 data-scrollreveal="enter left, after 0.3s">My adventures as a Programmer</h3>
 
 
-<div class="bcontent" data-scrollreveal= "after 0.5s, ease-in 50px and reset over .66s">
+  <div class="bcontent">
 
-<% @posts.each do |post| %>
+  <% @posts.each do |post| %>
 
-<%= post.created_at.strftime("%d %b 20%y") %>
+  <%= post.created_at.strftime("%d %b 20%y") %>
 
-  <div class="btable">
-    <h2>
-        <span><%= post.title %></span>
-    </h2>
-    
+    <div class="btable">
+      <h2>
+          <span><%= post.title %></span>
+      </h2>
+      
 
-    <p><%= post.text %></p>
+      <p><%= post.text %></p>
+    </div>
+
+      <p>
+        <center><%= image_tag post.image_url(:thumb) %></center>
+      </p>
+
+
+  <% end %>
+
   </div>
-
-    <p>
-      <center><%= image_tag post.image_url(:thumb) %></center>
-    </p>
-
-
-<% end %>
-
-</div>
   
     
-    
-
-   <!--  <h1>Listing posts</h1>
-    <%= link_to 'New Post', new_post_path %>
-    <table class="blog">
-      <tr>
-        <th>Title</th>
-        <th>Text</th>
-        <th colspan="2"></th>
-      </tr>
-
-      <% @posts.each do |post| %>
-        <tr>
-          <td><%= post.title %></td>
-          <td><%= post.text %></td>
-          <td><%= link_to 'Edit post', edit_post_path(post) %></td>
-          <td><%= link_to 'Show Post', post_path(post) %></td>
-          <td><%= link_to 'Destroy', post_path(post), method: :delete, data: { confirm: 'Are you sure?'} %></td>
-
-        </tr>
-      <% end %>
-    </table> -->
+  
 
 
 
