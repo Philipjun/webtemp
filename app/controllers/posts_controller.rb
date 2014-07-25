@@ -17,6 +17,11 @@ class PostsController < ApplicationController
     end
   end
 
+  # post_id = Post.last.id + 1
+  # then after @post
+  # do @post.id = post_id
+
+
   def show
     @post = Post.find(params[:id])
   end
