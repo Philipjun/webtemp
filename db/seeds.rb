@@ -7,9 +7,6 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 
-
-# Post.create(id: 2, title: "Last Day at Bitmaker Labs-Demo Day", text: "Wow it’s crazy how fast the 9 weeks went by! We had an internal Bitmaker Labs Demo Day on Friday to showcase all the final projects that the students worked on during the last 2 weeks of the course. It was amazing to see all the unique and creative web apps that my fellow classmates have built! We have definitely come a long way since the first week of class, where we were learning about the basics.", created_at: "2014-05-24", image: "monogram.jpg")
-
 Post.create(id: 1, title: "Day 1 at Bitmaker Labs", text: "My first day at Bitmaker Labs was definitely a memorable day! It first got started off by an introduction of all the various staff members, including the co-founders and the teachers with some interesting things about them, such as their favourite teacher. We were then split into random teams and was asked to make a creative presentation that introduced all the members of our team. That was definitely a great ice breaker to get to know everybody, and it was pretty interesting to have such a diverse group of people in the class ranging from professionals wanting to change careers to recent student graduates. 
 
 Shortly after the introductions and ice breaker games, we then got started on Git, Unix, and Github. It was a great refresher to the prep materials and was fun to work on an exercise based on the movie Inception, except we had to move files and folders through multiple levels. I was able to get everything setup on Github properly, pushed my assignment correctly and submitted it for that day!", created_at: "2014-03-29")
@@ -89,8 +86,5 @@ As part of the Think Thursday speaker events, Chris Carder came to discuss his p
 
 Post.create(id: 16, title: "Last Day at Bitmaker Labs-Demo Day", text: "Wow it’s crazy how fast the 9 weeks went by! We had an internal Bitmaker Labs Demo Day on Friday to showcase all the final projects that the students worked on during the last 2 weeks of the course. It was amazing to see all the unique and creative web apps that my fellow classmates have built! We have definitely come a long way since the first week of class, where we were learning about the basics.
   For my final project, as a team of two we built a web app that would show and compare wireless plans submitted by other users! We implemented some really cool features in the app including Google Maps API to show the cities that users were searching for the most (in the past hour), displaying real-time plan searches by other users, as well implementing draggable and droppable wireless plans on the user profile page.", created_at: "2014-05-24")
-
-
-
 
 
