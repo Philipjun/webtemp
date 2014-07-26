@@ -94,3 +94,47 @@ height: 100%;
   background: #1567b7;
   color: white
 }
+
+// -This CSS will apply for devices with the max width of 480 pixels
+ // */
+@media only screen and (max-width: 480px) {
+    .bmain h1{ 
+    margin-top: 0em;
+    background: asset-url('glassheader.jpg') no-repeat;
+    box-shadow: inset 0 0 0 400px rgba(0, 50, 100, 0.8);
+    background-size: 100%;
+    height: 15%;
+
+  }
+
+  .bmain h1 p{ 
+    padding-top: 0px;
+    margin-top: 0em;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+
+  }
+
+  .bmain h2{
+    font-size: 1.5em;
+    color: #333;
+    font-style: italic
+  }
+
+  .bmain h3{
+    position: relative; 
+    font-size: 1em;
+    color: #00C2FF;
+    text-align: center;
+    font-style: oblique;
+    top: -5em;
+  }
+
+  #bdate{
+    font-size: 0.6em;
+    top: -2em;
+    position: relative;
+  }
+}
+
