@@ -19,12 +19,17 @@
       
 
       <p data-scrollreveal="enter left, after 0.4s">My name is <strong>Philip</strong> and I am a passionate 
-        Full-Stack <strong>Web Developer</strong> based in <strong>Toronto, ON</strong></p>
+        Full-Stack <strong>Web Developer</strong> based in <strong>Toronto, ON</strong>
+        </p>
+
+    
     </div>
 
     <div id="photo" data-scrollreveal="enter left and move 50px over 1.33s">
       <img src="/assets/profile.png">
     </div>
+
+
 
   </section>
 
@@ -62,7 +67,23 @@
     </div>
   </section>
 
-  
+  <section id="blog">
+    <h1>Blog</h1>
+    <div class="blogbox">
+      <h1>Latest Post</h1>
+      <%= Post.last.created_at.strftime("%d %b 20%y") %>
+      <h2>
+        <a href="/posts">
+        <%= Post.last.title %>
+      </h2>
+      <p>
+        <%= Post.last.text %>
+      </p>
+        </a>
+      </div>
+  </section>
+
+
   <section id="end">
     <h1>Contact</h1>
     <div id="boxes">
