@@ -18,8 +18,6 @@
 
 $(function(){ $(document).foundation(); });
 
-$(function(){
-  window.scrollreveal = new scrollReveal ();
-
+$(document).ready(function(){
+  window.scrollReveal = new scrollReveal();
 });
-
