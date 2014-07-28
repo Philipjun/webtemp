@@ -11,7 +11,8 @@
 <body>
 
 <div id="fullpage">
-  <div class="section  fp-section fp-table active" id="section0" data-anchor="firstPage">
+
+  <div class="section active" id="section0" data-anchor="firstPage">
 
     <div class="intro">
       <h1 data-scrollreveal="enter top, after 0.2s">Hello</h1>
@@ -20,77 +21,20 @@
         Full-Stack <strong>Web Developer</strong> based in <strong>Toronto, ON</strong>
         </p>
     
-    </div>
+      </div>
 
       <div id="photo" data-scrollreveal="enter left and move 50px over 1.33s">
         <img src="/assets/profile.png">
       </div>
+
     
   </div>
 </div>
 
-<div class="section fp-section active" id="section1" data-anchor="secondPage">
+<div class="section fp-section-table" id="section1" data-anchor="secondPage">
       
-<section id="mid">
-    <h1>Portfolio</h1>
-  <div class="pshow">
-    
-      <div id="crowdfunder">
-        <ul class="img-list">
-          <li>
-            <a class="thumb" href="/portfolio/crowdfunder">
-              <img src= "/assets/cfthumb.png">
-              <span class="text-content"><span>Crowdfunder</span></span>
-            </a>
-          </li>
-        </ul>
-
-        </div>
-  
-
-      <div id="seatyourself">
-
-        <ul class="img-list">
-          <li>
-            <a class="thumb" href="/portfolio/seatyourself">
-              <img src= "/assets/s1t.png">
-              <span class="text-content"><span>Seatyourself</span></span>
-            </a>
-          </li>
-        </ul>
-      </div>
-
-    </div>
-</section>
-
-
-</div>
-
-<!-- <div class="main">
-  <section id="intro">
-    <div class="intros">
-      
-        <h1 data-scrollreveal="enter top, after 0.2s">Hello</h1>
-      
-
-      <p data-scrollreveal="enter left, after 0.4s">My name is <strong>Philip</strong> and I am a passionate 
-        Full-Stack <strong>Web Developer</strong> based in <strong>Toronto, ON</strong>
-        </p>
-
-    
-    </div>
-
-    <div id="photo" data-scrollreveal="enter left and move 50px over 1.33s">
-      <img src="/assets/profile.png">
-    </div>
-
-
-
-  </section>
-
-  
   <section id="mid">
-      <h1>Portfolio</h1>
+  <h1>Portfolio</h1>
     <div class="pshow">
       
         <div id="crowdfunder">
@@ -104,9 +48,9 @@
           </ul>
 
           </div>
-        <!-- </div>
+    
 
-<!--         <div id="seatyourself">
+        <div id="seatyourself">
 
           <ul class="img-list">
             <li>
@@ -118,29 +62,30 @@
           </ul>
         </div>
 
-      
-    </div> -->
+    </div>
   </section>
+</div>
+  
 
-<div class="section fp-section active" id="section2" data-anchor="thirdPage">
+<div class="section fp-section-active " id="section2" data-anchor="thirdPage">
   <section id="blog">
     <h1>Blog</h1>
-    <div class="blogbox">
-      <h1>Latest Post</h1>
-      <%= Post.last.created_at.strftime("%d %b 20%y") %>
-      <h2>
-        <a href="/posts">
-        <%= Post.last.title %>
-      </h2>
-      <p>
-        <%= Post.last.text %>
-      </p>
-        </a>
+      <div class="blogbox">
+        <h1>Latest Post</h1>
+          <%= Post.last.created_at.strftime("%d %b 20%y") %>
+        <h2>
+          <a href="/posts">
+          <%= Post.last.title %>
+        </h2>
+        <p>
+          <%= Post.last.text %>
+        </p>
+          </a>
       </div>
   </section>
 </div>
 
-<div class="section fp-section active" id="section3" data-anchor="lastPage">
+<div class="section fp-section-active" id="section3" data-anchor="lastPage">
 
   <section id="end">
     <h1>Contact</h1>

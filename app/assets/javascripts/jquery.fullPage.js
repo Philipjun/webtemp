@@ -11,7 +11,7 @@
 		// Create some defaults, extending them with any options that were provided
 		options = $.extend({
 			"verticalCentered": false,
-			'resize': true,
+			'resize': false,
 			'sectionsColor' : [],
 			'anchors':[],
 			'scrollingSpeed': 500,
@@ -40,7 +40,7 @@
 			'animateAnchor': true,
 			'normalScrollElementTouchThreshold': 5,
 			'sectionSelector': '.section',
-			'slideSelector': '.slide',
+			'slideSelector': '.section',
 
 			//events
 			'afterLoad': null,
