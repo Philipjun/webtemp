@@ -10,11 +10,11 @@
 	$.fn.fullpage = function(options) {
 		// Create some defaults, extending them with any options that were provided
 		options = $.extend({
-			"verticalCentered": true,
-			'resize': true,
+			"verticalCentered": false,
+			'resize': false,
 			'sectionsColor' : [],
-			'anchors':[],
-			'scrollingSpeed': 500,
+			'anchors':[], 
+			'scrollingSpeed': 700,
 			'easing': 'easeInQuart',
 			'menu': false,
 			'navigation': false,
@@ -23,11 +23,11 @@
 			'navigationTooltips': [],
 			'slidesNavigation': true,
 			'slidesNavPosition': 'bottom',
-			'controlArrowColor': '#fff',
+			'controlArrowColor': 'red',
 			'loopBottom': false,
 			'loopTop': false,
 			'loopHorizontal': true,
-			'autoScrolling': true,
+			'autoScrolling': false,
 			'scrollOverflow': false,
 			'css3': false,
 			'paddingTop': 0,
@@ -82,6 +82,7 @@
 			}else{
 				$('html, body').css({
 					'overflow' : 'auto',
+					'overflow-x' : 'hidden',
 					'height' : 'auto'
 				});
 
