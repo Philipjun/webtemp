@@ -21,3 +21,7 @@ $(function(){ $(document).foundation(); });
 $(document).ready(function(){
   window.scrollReveal = new scrollReveal();
 });
+
+$(document).ready(function() {
+    $('.fancybox').fancybox();
+});

@@ -353,6 +353,10 @@ ul.img-list li:hover span.text-content {
 -This CSS will apply for devices with the max width of 480 pixels
  */
 @media only screen and (max-width: 480px) {
+
+  #section0{
+    height: 600px;
+  }
   #section0 h1 {
     font-size: 2em;
     position: relative; 
