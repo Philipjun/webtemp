@@ -307,7 +307,7 @@ span.text-content {
   color: white;
   cursor: pointer;
   display: table;
-  height: 350px;
+  height: 352px;
   left: 0;
   position: absolute;
   top: 0;
@@ -382,6 +382,10 @@ ul.img-list li:hover span.text-content {
     position: relative;
   }
 
+  #section1{
+    height: 600px;
+  }
+
   #mid h1 {
 
     position: relative;
@@ -415,7 +419,7 @@ ul.img-list li:hover span.text-content {
     color: white;
     cursor: pointer;
     display: table;
-    height: 175px;
+    height: 176px;
     left: 25%;
     position: absolute;
     top: 0;
