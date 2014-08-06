@@ -32,6 +32,7 @@ gem 'mini_magick'
 
 gem "scrollreveal-rails"   
 
+gem 'meta-tags'
 
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
