@@ -2,38 +2,3 @@
 // All this logic will automatically be available in application.js.
 
 
- $('.slider-for').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
-    fade: true,
-    asNavFor: '.slider-nav'
-});
-$('.slider-nav').slick({
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    asNavFor: '.slider-for',
-    dots: true,
-    centerMode: true,
-    focusOnSelect: true
-});
-
-  $('.mini-showcase').slick({
-    setting-name: setting-value
-  });
-
- $('.slider-for').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
-    fade: true,
-    asNavFor: '.slider-nav'
-});
-$('.slider-nav').slick({
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    asNavFor: '.slider-for',
-    dots: true,
-    centerMode: true,
-    focusOnSelect: true
-});
