@@ -6,6 +6,7 @@ Philipjun::Application.routes.draw do
   
   get "portfolio/seatyourself"
   get "portfolio/crowdfunder"
+  get "portfolio/mini"
 
   resources :posts
 

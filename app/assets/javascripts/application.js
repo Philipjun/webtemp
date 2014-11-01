@@ -14,6 +14,7 @@
 //= require jquery_ujs
 //= require foundation
 //= require scrollReveal
+//= require jquery.slick
 //= require_directory .
 
 $(function(){ $(document).foundation(); });
