@@ -88,7 +88,7 @@ $(function() {
 				// we are using the elastislide plugin:
 				// http://tympanus.net/codrops/2011/09/12/elastislide-responsive-carousel/
 				$esCarousel.show().elastislide({
-					imageW 	: 65,
+					imageW 	: 100,
 					onClick	: function( $item ) {
 						if( anim ) return false;
 						anim	= true;
@@ -139,7 +139,7 @@ $(function() {
 				// adds the structure for the large image and the navigation buttons (if total items > 1)
 				// also initializes the navigation events
 				
-				$('#img-wrapper-tmpl').tmpl( {itemsCount : itemsCount} ).appendTo( $rgGallery );
+				$('#img-wrapper-tmpl').tmpl( {itemsCount : itemsCount} ).prependTo( $rgGallery );
 				
 				if( itemsCount > 1 ) {
 					// addNavigation
