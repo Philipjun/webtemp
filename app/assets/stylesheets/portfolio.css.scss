@@ -105,6 +105,10 @@
   background: #000;
 }
 
+.mmv{
+  display: none;
+}
+
 
 .saga{
   width: 64%;
@@ -258,9 +262,10 @@
   
 /* 
 
--This CSS will apply for devices with the max width of 480 pixels
+-This CSS will apply for devices with the Mobile max width of 480 pixels
  */
 @media only screen and (max-width: 480px) {
+
 
     .pdesc h1{
       font-size: 2em;
@@ -332,6 +337,47 @@
 
     .navbar a{
       font-size: 5%;
+    }
+
+    // MINI MOBILE
+
+    .columns{
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+
+    .mmv{
+      display: block;
+    }    
+
+    .mmd{
+      display: none;
+    }
+
+    .mini-contact-form{
+      display: none; 
+    }
+
+    .mini-contact{
+      text-align: center;
+    }
+
+    .mini-gallery{
+      width: 93%;
+    }
+
+
+    .mini-banner-text > p{
+      margin-top: 6em;
+    }
+
+    .saga{
+      width: 100%
+    }
+
+    .talk-row{
+      padding-left: 0px;
+      padding-right: 0px
     }
 
 }
