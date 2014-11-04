@@ -3,6 +3,10 @@ Philipjun::Application.routes.draw do
   ActiveAdmin.routes(self)
   
   get "home/index"
+  
+  get "portfolio/seatyourself"
+  get "portfolio/crowdfunder"
+  get "portfolio/mini"
 
   resources :portfolio
   resources :posts
