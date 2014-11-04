@@ -287,43 +287,6 @@ color: #afe0ff;
 //   visibility: hidden;
 // }
 
-ul.img-list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
- 
-ul.img-list li {
-  display: inline-block;
-  height: 350px;
-  position: relative;
-  width: 345px;
-}
-
-span.text-content {
-  background: #1567b7;
-  color: white;
-  cursor: pointer;
-  display: table;
-  height: 352px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 345px;
-  opacity: 0;
-  font-size: 400%;
-}
- 
-span.text-content span {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-}
-
-ul.img-list li:hover span.text-content {
-  opacity: 1;
-}
 
 
 // #ptitle{
