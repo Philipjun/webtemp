@@ -37,6 +37,21 @@ span.text-content {
   font-size: 400%;
 }
 
+span.text-content-og {
+  background: #F89C37;
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 350px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 345px;
+  opacity: 0;
+  font-size: 400%;
+}
+
+
 .og{
   background-color: #FF9100;
   }
@@ -52,7 +67,17 @@ span.text-content span {
   vertical-align: middle;
 }
 
+span.text-content-og span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
 ul.img-list li:hover span.text-content {
+  opacity: 1;
+}
+
+ul.img-list li:hover span.text-content-og {
   opacity: 1;
 }
 
@@ -244,81 +269,51 @@ ul.img-list li:hover span.text-content {
   margin: auto;
 }
 
-.rg-image-wrapper{
-    position:relative;
-    padding:20px 30px;
-    background:transparent url(/assets/images/black.png) repeat top left;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    min-height:20px;
-}
-
-.rg-image{
-    position:relative;
-    text-align:center;
-    line-height:0px;
-}
-
-.rg-image img{
-    max-height:100%;
-    max-width:100%;
-}
-
-.rg-image-nav a{
-    position:relative;
-    top:0px;
-    left:0px;
-    background:#000 url(/assets/images/nav.png) no-repeat -20% 50%;
-    width:28px;
-    height:100%;
-    text-indent:-9000px;
-    cursor:pointer;
-    opacity:0.3;
-    outline:none;
-    -moz-border-radius: 10px 0px 0px 10px;
-    -webkit-border-radius: 10px 0px 0px 10px;
-    border-radius: 10px 0px 0px 10px;
-}
-
-.rg-image-nav a.rg-image-nav-next{
-    right:0px;
-    left:auto;
-    background-position:115% 50%;
-    -moz-border-radius: 0px 10px 10px 0px;
-    -webkit-border-radius: 0px 10px 10px 0px;
-    border-radius: 0px 10px 10px 0px;
-}
-
-.rg-image-nav a:hover{
-    opacity:0.8;
-}
-
-
-.rg-loading{
-    width:46px;
-    height:46px;
-    position:absolute;
-    top:50%;
-    left:50%;
-    background:#000 url(../images/ajax-loader.gif) no-repeat center center;
-    margin:-23px 0px 0px -23px;
-    z-index:100;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    opacity:0.7;
-}
 
 // --MINI Section ends here-- //
 
   
 /* 
 
--This CSS will apply for devices with the Mobile max width of 480 pixels
+-This CSS will apply for devices with the Mobile view max width of 480 pixels
  */
 @media only screen and (max-width: 480px) {
 
+    span.text-content {
+      background: #1567b7;
+      color: white;
+      cursor: pointer;
+      display: table;
+      height: 176px;
+      left: 25%;
+      position: absolute;
+      top: 0;
+      width: 175px;
+      opacity: 0;
+      font-size: 100%;
+  }
+
+    span.text-content-og {
+      background: #F89C37;
+      color: white;
+      cursor: pointer;
+      display: table;
+      height: 176px;
+      left: 25%;
+      position: absolute;
+      top: 0;
+      width: 175px;
+      opacity: 0;
+      font-size: 100%;
+  }
+
+  
+
+    ul.img-list li {
+      display: inline-block;
+      position: relative;
+      width: 345px;
+    }
 
     .pdesc h1{
       font-size: 2em;
